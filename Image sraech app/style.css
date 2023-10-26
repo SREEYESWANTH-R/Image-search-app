@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400&family=Permanent+Marker&family=Phudu:wght@300&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;1,100;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=Rubik+Iso&family=Teko:wght@300&family=Tilt+Prism&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Young+Serif&family=Ysabeau+SC:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(239, 236, 233);
+}
+
+.header{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-top: 30px;
+}
+
+.search input{
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    width:450px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18PX;
+}
+
+.search input::placeholder{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.search .searchBtn{
+    padding:15px;
+    border: none;
+    color: #fff;
+    background-color: red;
+    border-radius: 15px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gallary{
+    width:80%;
+    margin:100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:40px;
+}
+
+.gallary img{
+    width:100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.gallary a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+.gallary p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.showBtn{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+}
+
+.showBtn #showBtn{
+    border:0;
+    padding:15px;
+    color: #fff;
+    background-color: red;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bolder;
+    display:none;
+}
+
+.imageAttributes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 0px 0px 0px;
+    padding:10px 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-family:Roboto;
+}
